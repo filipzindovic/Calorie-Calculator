@@ -1,0 +1,161 @@
+body {
+    
+    background-color: #f1edff;
+    font-family: 'Kreon', serif;
+    
+}
+
+.container {
+    
+    height: 570px;
+    width: 550px;
+    background-color: #9efff6;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgba(44,62,80,1);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header {
+    
+    height: 80px;
+    width: 530px;
+    font-family: 'Fredoka One', cursive;
+    background-color: #5bc6bc;
+    border: 3px solid darkslategray;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+
+#header-text {
+    
+    font-size: 45px;
+    margin-top: 15px;
+    color: darkslategray;
+    
+}
+
+.user-inputs {
+    
+    height: 480px;
+    width: 260px;
+    margin-left: 5px;
+    float: left;
+    
+}
+
+.gender-input {
+    
+    height: 15px;
+    width: 15px;
+    margin: 50px 8px 9px 8px;
+    cursor: pointer;
+    
+} 
+
+#male, #female {
+    
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#age, #weight, #height, #exercise, #walking {
+    
+    height: 30px;
+    width: 200px;
+    margin: 9px 0px 9px 10px;
+    background-color: #5bc6bc;
+    font-family: 'Kreon', serif;
+    font-size: 18px;
+    padding-left: 38px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    outline: none;
+    
+}
+
+#age {
+    background-image: url(IMAGES/age.png);
+
+}
+
+#weight {
+    
+    background-image: url(IMAGES/weight.png);
+    
+}
+
+#height {
+    
+    background-image: url(IMAGES/height.png);
+
+}
+
+#exercise {
+    
+    background-image: url(IMAGES/exercise.png);
+
+}
+
+#walking {
+    
+    background-image: url(IMAGES/walking.png);
+ 
+}
+
+#button {
+    
+    height: 40px;
+    width: 180px;
+    margin-top: 9px;
+    background-color: #fc0c0c;
+    font-family: 'Kreon', serif;
+    font-size: 22px;
+    color: azure;
+    border-radius: 5px;
+    outline-color: gray;
+    box-shadow: 1px 2px 4px rgba(44,62,80,1);
+    cursor: pointer;
+    
+}
+
+.instructions-div, .calorie-div {
+    
+    font-size: 18px;
+    width: 255px;
+    background-color: #5bc6bc;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    margin: 10px 12px 0px 0px;
+    float: right;
+}
+
+.instructions-div {
+    
+    height: 172px;
+    
+}
+
+#instructions {
+    
+    padding: 10px 5px 10px 5px;
+    
+}
+
+.calorie-div {
+    
+    height: 242px;
+
+}
+
+#calculated-calories {
+    
+    font-size: 36px;
+    font-weight: 700;
+    
+}
+

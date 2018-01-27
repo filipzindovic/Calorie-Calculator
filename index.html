@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html lang="en">
+    
+<head>
+    
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Kreon:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+ 
+<body> 
+
+    <div class="container">
+        
+        <div id="header"> 
+            <h1 id="header-text">CALORIE CALCULATOR</h1>        
+        </div>
+    
+        <div class="user-inputs">
+        
+            <form>
+
+                <!-- radio buttons for User to select gender -->
+                <input class="gender-input" id="male-id" type="radio" name="gender"> 
+                <span id="male"> Male </span> 
+
+                <input class="gender-input" id="female-id" type="radio" name="gender">
+                <span id="female"> Female </span>
+
+                <!-- numerical value for age -->
+                <input id="age" type="number" placeholder="Age in Years" min="12" max="99">
+
+                <!-- numerical value for weight -->
+                <input id = "weight" type="number" placeholder="Weight in Kg" min="45" max="150">
+
+                <!-- numerical value for height -->
+                <input id="height" type="number" placeholder="Height in Cm" min="120" max="200">
+
+                <!-- Drop down menu for exercise intensity -->
+                <input id="exercise" list="user-exercise" placeholder="Exercise Performed">
+
+                <datalist id="user-exercise">
+                    
+                    <option value="None"></option>
+                    <option value="Light"></option>
+                    <option value="Moderate"></option>
+                    <option value="Intense"></option>
+                    <option value="Very Intense"></option>
+
+                </datalist>
+                
+                <!-- Drop down menu for walking distance -->
+                <input id="walking" list="user-walking" placeholder="Total Walking">
+
+                <datalist id="user-walking">
+
+                    <option value="0.8km / 0.5m"></option>
+                    <option value="1.6km / 1.0m"></option>
+                    <option value="2.4km / 1.5m"></option>
+                    <option value="3.2km / 2.0m"></option>
+                    <option value="4.0km / 2.5m"></option>
+                    <option value="4.8km / 3.0m"></option>
+                    <option value="5.6km / 3.5m"></option>
+                    <option value="6.4km / 4.0m"></option>
+                    <option value="7.2km / 4.5m"></option>
+                    <option value="8.0km / 5.0m"></option>
+
+                </datalist>
+                
+                <input id="button" type="button" value="CALCULATE">
+                
+            </form>
+
+        </div>
+    
+        <div class="instructions-div">
+            
+            <p id="instructions">  Fill in the form on the left to find out how many calories you need to intake today.
+            
+        </div>
+    
+        <div class="calorie-div"> 
+            
+            <p id="calorie-value">Recommended Daily Intake<br><br><span id="calculated-calories"></span><br></p>
+        
+        </div>
+    
+    </div>
+    
+    <script src="scriptEXP.js"></script>
+    
+</body>
+
+</html>
